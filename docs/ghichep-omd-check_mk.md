@@ -141,6 +141,12 @@ disable        = no
 service xinetd restart
 ```
 
+- Nếu chưa cài xinetd 
+
+```sh
+	apt-get install xinetd
+```
+
 - Port của check mk hoạt động là 6556, kiểm tra lại port 6556 đã hoạt động hay chưa
 
 ```sh
